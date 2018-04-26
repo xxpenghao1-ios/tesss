@@ -15,6 +15,7 @@
 		63FBEE932091C4C600BE6B81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63FBEE912091C4C600BE6B81 /* LaunchScreen.storyboard */; };
 		63FBEE9E2091C4C600BE6B81 /* tesssTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEE9D2091C4C600BE6B81 /* tesssTests.swift */; };
 		63FBEEA92091C4C600BE6B81 /* tesssUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEEA82091C4C600BE6B81 /* tesssUITests.swift */; };
+		63FBEEB82091C4E400BE6B81 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FBEEB72091C4E400BE6B81 /* File.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		63FBEEA42091C4C600BE6B81 /* tesssUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tesssUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FBEEA82091C4C600BE6B81 /* tesssUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tesssUITests.swift; sourceTree = "<group>"; };
 		63FBEEAA2091C4C600BE6B81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63FBEEB72091C4E400BE6B81 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		63FBEE842091C4C300BE6B81 /* tesss */ = {
 			isa = PBXGroup;
 			children = (
+				63FBEEB62091C4D100BE6B81 /* tt */,
 				63FBEE852091C4C300BE6B81 /* AppDelegate.swift */,
 				63FBEE872091C4C400BE6B81 /* ViewController.swift */,
 				63FBEE892091C4C400BE6B81 /* Main.storyboard */,
@@ -126,6 +129,14 @@
 				63FBEEAA2091C4C600BE6B81 /* Info.plist */,
 			);
 			path = tesssUITests;
+			sourceTree = "<group>";
+		};
+		63FBEEB62091C4D100BE6B81 /* tt */ = {
+			isa = PBXGroup;
+			children = (
+				63FBEEB72091C4E400BE6B81 /* File.swift */,
+			);
+			path = tt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63FBEE8E2091C4C400BE6B81 /* tesss.xcdatamodeld in Sources */,
+				63FBEEB82091C4E400BE6B81 /* File.swift in Sources */,
 				63FBEE882091C4C400BE6B81 /* ViewController.swift in Sources */,
 				63FBEE862091C4C300BE6B81 /* AppDelegate.swift in Sources */,
 			);
